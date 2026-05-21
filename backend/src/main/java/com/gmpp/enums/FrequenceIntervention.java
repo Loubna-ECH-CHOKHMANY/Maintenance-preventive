@@ -1,0 +1,2 @@
+package com.gmpp.enums;
+public enum FrequenceIntervention { QUOTIDIENNE, HEBDOMADAIRE, MENSUELLE, TRIMESTRIELLE, SEMESTRIELLE, ANNUELLE, PAR_HEURES }

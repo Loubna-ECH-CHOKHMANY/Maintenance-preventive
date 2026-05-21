@@ -1,0 +1,9 @@
+export default {
+  nav: { dashboard:'لوحة القيادة', machines:'الآلات', points:'نقاط الصيانة', interventions:'التدخلات', planning:'التخطيط', pannes:'الصيانة التصحيحية', stock:'قطع الغيار', kpi:'مؤشرات الأداء', techniciens:'التقنيون', rapports:'التقارير', audit:'سجلات التدقيق', notifications:'الإشعارات' },
+  common: { add:'إضافة', edit:'تعديل', delete:'حذف', save:'حفظ', cancel:'إلغاء', confirm:'تأكيد', search:'بحث', filter:'تصفية', export:'تصدير', close:'إغلاق', loading:'جاري التحميل...', error:'خطأ', success:'نجاح', noData:'لا توجد بيانات', all:'الكل', actions:'إجراءات', details:'تفاصيل', yes:'نعم', no:'لا', refresh:'تحديث' },
+  status: { PLANIFIEE:'مخطط', EN_COURS:'جاري', TERMINEE:'مكتمل', ANNULEE:'ملغى', EN_RETARD:'متأخر', EN_SERVICE:'في الخدمة', EN_MAINTENANCE:'في الصيانة', HORS_SERVICE:'خارج الخدمة', EN_REPARATION:'في الإصلاح', DECLAREE:'مُعلن', RESOLUE:'محلول', VALIDEE:'مُتحقق', CRITIQUE:'حرج', HAUTE:'عالي', MOYENNE:'متوسط', BASSE:'منخفض' },
+  kpi: { mtbf:'متوسط وقت العطل', mttr:'متوسط وقت الإصلاح', oee:'الكفاءة الشاملة', trs:'معدل الأداء الشامل', disponibilite:'التوفر', performance:'الأداء', qualite:'الجودة', pannes:'الأعطال', periode:'الفترة', mois:'شهر', semaine:'أسبوع', trimestre:'ربع سنة', annee:'سنة' },
+  machines: { title:'إدارة الآلات', add:'إضافة آلة', nom:'اسم الآلة', type:'النوع', marque:'العلامة', modele:'الموديل', serie:'رقم السلسلة', atelier:'الورشة', statut:'الحالة', compteur:'ساعات التشغيل' },
+  stock: { title:'مخزون قطع الغيار', reference:'المرجع', designation:'التعيين', categorie:'الفئة', quantite:'الكمية', seuilMin:'الحد الأدنى', prixUnit:'سعر الوحدة', alerte:'تنبيه', rupture:'نفاد المخزون', entree:'وارد', sortie:'صادر' },
+  pannes: { title:'الصيانة التصحيحية', declarer:'الإبلاغ عن عطل', resoudre:'حل', valider:'تحقق', urgence:'الأولوية', statut:'الحالة', machine:'الآلة', technicien:'التقني', cause:'السبب الجذري', actions:'الإجراءات التصحيحية' }
+};
